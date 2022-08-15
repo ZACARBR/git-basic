@@ -1,1 +1,8 @@
 ZACARBR UPDATED newfile on GITHUB
+
+Answer:
+
+1. The git add command adds a change to the staging area from the working directory. It informs Git that you want to include changes to a specific file in the next commit. However, git add has no effect on the repository. Changes are not actually recorded until you run git commit.
+ while the git commit command is one of Git's primary functions. To select the changes that will be staged for the next commit, use the git add command first. Then, using git commit, a snapshot of the staged changes is created along a timeline of a Git project's history.
+ And last the git push command is used to upload content from a local repository to a remote repository. Pushing is the process of transferring commits from your local repository to a remote repository. It is the inverse of git fetch, but instead of importing commits to local branches, pushing exports commits to remote branches.
+ To somplyfy the git add it is one used to select the changes, the git commit is to records changes locally and the git push is to shares the chnages on the repository.
